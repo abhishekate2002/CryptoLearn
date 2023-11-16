@@ -1,0 +1,18 @@
+/* RocketImage.css */
+
+.image-container {
+  display: flex;
+  justify-content: flex-end; /* Center the image horizontally *; /* Center the image vertically */
+  margin-top: 50px;
+  margin-right: 200px;
+  width: 500px;
+  height: 500px;
+  flex-shrink: 0; /* Adjust the margin as needed */
+}
+
+.rocket-image {
+  max-width: 100%; /* Ensures the image is responsive and doesn't overflow */
+  height: auto; /* Maintain the aspect ratio */
+  /* Additional styling can be added here */
+  margin-right: 100px;
+}

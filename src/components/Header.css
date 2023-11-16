@@ -1,0 +1,67 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f7f7; /* This is the color from your logo image */
+  padding: 10px 20px;
+}
+
+.logo {
+  color: #e79f3d;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 5.4px;
+  font-weight: bold;
+  color: #e79f3d; /* This is the color from your logo image */
+  cursor: pointer;
+}
+
+.navigation {
+  display: flex;
+  justify-self: auto;
+  list-style-type: none;
+  margin-left: 20rem;
+}
+
+.nav-link {
+  color: #766d6d;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.16px;
+  text-decoration: none;
+
+  margin-right: 45px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #e79f3d; /* Orange color for link hover state */
+}
+
+.signup-button {
+  width: 150px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #e79f3d;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.signup-button:hover {
+  background-color: darken(#e79f3d, 10%); /* Darken the button on hover */
+}
+
+/* Responsive design adjustments, if necessary */
+@media (max-width: 768px) {
+  .navigation {
+    display: none; /* Hide navigation on smaller screens */
+  }
+
+  /* Additional responsive styles can be added here */
+}

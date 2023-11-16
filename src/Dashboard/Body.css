@@ -1,0 +1,54 @@
+.tagline {
+  color: #e79f3d;
+  font-size: 40px;
+  font-style: bold;
+  flex-shrink: 0;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 3.24px;
+  width: 564px;
+  margin-top: 175px;
+  margin-left: 20px;
+}
+.signup {
+  margin-top: 5rem;
+  padding: 6px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #e79f3d;
+  color: #f7f7f7;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  margin: 20px;
+}
+.call-to-action p {
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+.login {
+  border-radius: 15px;
+  padding: 6px;
+  border: 2px solid #e79f3d;
+  background: #f7f7f7;
+  flex-shrink: 0;
+  color: #e79f3d;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.8px;
+}
+
+.landing-container {
+  display: flex;
+  align-items: flex-start; /* This will vertically center align items */
+  justify-content: flex-start; /* This will horizontally center the items in the container */
+  gap: 275px; /* Adjust the space between the text and image */
+}
