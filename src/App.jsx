@@ -9,6 +9,9 @@ import {
 import Header from "./components/Header";
 import Body from "./Dashboard/Body";
 import History from "./History/History";
+import Tools from "./Tool/Tools";
+import Aboutme from "./AboutMe/Aboutme";
+import Learn from "./Learning/Learn";
 function App() {
   return (
     <Router>
@@ -18,8 +21,17 @@ function App() {
           <Route path="/" exact>
             <Body></Body>
           </Route>
-          <Route to="/history">
+          <Route path="/history">
             <History />
+          </Route>
+          <Route path="/tool">
+            <Tools></Tools>
+          </Route>
+          <Route path="/aboutme">
+            <Aboutme></Aboutme>
+          </Route>
+          <Route path="/learning">
+            <Learn></Learn>
           </Route>
           <Redirect to="/" />
         </Switch>
