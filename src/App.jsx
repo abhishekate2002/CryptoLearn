@@ -12,6 +12,8 @@ import History from "./History/History";
 import Tools from "./Tool/Tools";
 import Aboutme from "./AboutMe/Aboutme";
 import Learn from "./Learning/Learn";
+import Sha256 from "./Learning/sha/Sha256";
+import BasicCryptData from "./Learning/BasicCrypt/BasicCryptData";
 function App() {
   return (
     <Router>
@@ -30,9 +32,12 @@ function App() {
           <Route path="/aboutme">
             <Aboutme></Aboutme>
           </Route>
-          <Route path="/learning">
-            <Learn></Learn>
+          <Route path="/learn" exact>
+            <Learn />
           </Route>
+          <Route path="/learn/sha256" component={Sha256} />
+          <Route path="/learn/basic" component={BasicCryptData} />
+
           <Redirect to="/" />
         </Switch>
       </main>

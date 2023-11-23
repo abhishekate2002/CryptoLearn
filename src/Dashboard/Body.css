@@ -50,5 +50,5 @@
   display: flex;
   align-items: flex-start; /* This will vertically center align items */
   justify-content: flex-start; /* This will horizontally center the items in the container */
-  gap: 275px; /* Adjust the space between the text and image */
+  gap: 200px; /* Adjust the space between the text and image */
 }

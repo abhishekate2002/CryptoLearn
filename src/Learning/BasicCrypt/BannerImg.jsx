@@ -1,5 +1,5 @@
 import "./BannerImg.css";
-import banner from "../assets/cryptobasic.png";
+import banner from "../../assets/cryptobasic.png";
 function BannerImg() {
   return (
     <div className="banner">
