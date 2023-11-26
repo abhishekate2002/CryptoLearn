@@ -1,0 +1,8 @@
+.police-image {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  /* Align to the top of the container */
+  left: 50%; /* Move the image to the horizontal center */
+  transform: translateX(-50%);
+}

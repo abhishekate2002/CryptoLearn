@@ -1,0 +1,25 @@
+/* Style for the table container (parent div) */
+.table-container {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: inline-block; /* Display tables inline */
+}
+
+/* Style for the tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}

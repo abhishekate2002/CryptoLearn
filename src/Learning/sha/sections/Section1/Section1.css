@@ -1,0 +1,28 @@
+.section {
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.heading {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.para {
+  padding: 5px;
+  padding-left: 0px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.small-heading {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #03b5e3;
+  font-weight: 600;
+}
+.bold-text {
+  color: #c72ab7;
+}
