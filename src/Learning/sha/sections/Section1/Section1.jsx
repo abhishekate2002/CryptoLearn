@@ -1,12 +1,6 @@
-import Asciitable from "./ASCIITable/Asciitable";
-import { useState } from "react";
 import Police from "./Police";
 import "./Section1.css";
 function Section1() {
-  const [isTableVisible, setisTbleVisible] = useState(false);
-  const handleOnShow = () => {
-    setisTbleVisible(!isTableVisible);
-  };
   return (
     <div className="section">
       <h1 className="heading">Introduction to SHA-256 🛡️🔐</h1>
@@ -96,10 +90,6 @@ function Section1() {
         evolves, SHA-256 will play a critical role in safeguarding our digital
         lives. 🛡️🌐🔐
       </p>
-      <button onClick={handleOnShow}>
-        {isTableVisible ? "Hide Table" : "Show Table"}
-      </button>
-      {isTableVisible && <Asciitable />}
     </div>
   );
 }

@@ -1,0 +1,42 @@
+.section {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.heading {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+.sub-heading {
+  color: #d8881b;
+  font-weight: 600;
+}
+.para {
+  padding: 5px;
+  padding-left: 0px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.small-heading {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #03b5e3;
+  font-weight: 600;
+}
+
+.small-heading2 {
+  font-weight: 600;
+  color: #c72ab7;
+}
+.bold-text {
+  color: #c72ab7;
+}
+
+.image-caption {
+  text-align: center;
+}
