@@ -1,8 +1,10 @@
-import "./Tools.css";
+import Encrypt from "./Encrypt";
+import Decrypt from "./Decrypt";
 function Tools() {
   return (
-    <div>
-      <h1>This is tools page</h1>
+    <div className="container ml-0">
+      <Encrypt />
+      {/* <Decrypt /> */}
     </div>
   );
 }

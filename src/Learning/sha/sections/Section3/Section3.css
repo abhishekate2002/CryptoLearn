@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  margin-right: 100px;
+  padding-left: 100px;
+  padding-right: 200;
+}
+.para {
+  margin-top: 5px;
+}
+
+.small-heading {
+  margin-bottom: 3px;
+}
