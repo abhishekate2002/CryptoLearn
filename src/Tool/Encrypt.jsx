@@ -115,7 +115,6 @@ function Encrypt() {
             <option value="RailfenceCipher">Railfence Cipher</option>
             <option value="SHA-256">SHA-256</option>
             <option value="AES">AES</option>
-            <option value="RSA">RSA</option>
           </select>
         </div>
 

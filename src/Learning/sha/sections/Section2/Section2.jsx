@@ -718,10 +718,6 @@ function Section2() {
         rotation will be applied on "e". It will do 22 bits shifts.
       </p>
       <p className="para">
-        <b className="bold-text">Stage 3:</b>In this stage, right shift circular
-        rotation will be applied on "e". It will do 22 bits shifts.
-      </p>
-      <p className="para">
         <b className="bold-text">Stage 4:</b>In this stage, we will perform
         bitwise addition for{" "}
         <b className="bold-text">Stage 1, Stage 2 and Stage 3</b>. This will
